@@ -1,6 +1,4 @@
-
-
-mt: mod_tap {
+mt_tp: mod_tap {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
     flavor = "tap-preferred";
