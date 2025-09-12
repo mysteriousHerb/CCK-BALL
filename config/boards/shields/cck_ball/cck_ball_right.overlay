@@ -5,6 +5,13 @@
  */
  
 #include "cck_ball.dtsi"
+#include <dt-bindings/zmk/behaviors.h>
+
+/ {
+    behaviors {
+        #include "behaviors.dtsi"
+    };
+};
 
 &default_transform {
     col-offset = <6>;
