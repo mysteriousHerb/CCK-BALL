@@ -7,12 +7,6 @@
 #include "cck_ball.dtsi"
 #include <dt-bindings/zmk/behaviors.h>
 
-/ {
-    behaviors {
-        #include "behaviours.dtsi"
-    };
-};
-
 
 &kscan0 {
 	col-gpios
