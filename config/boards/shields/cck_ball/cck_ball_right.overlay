@@ -9,9 +9,17 @@
 
 / {
     behaviors {
-        #include "behaviors.dtsi"
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
+        };
     };
 };
+
 
 &default_transform {
     col-offset = <6>;
