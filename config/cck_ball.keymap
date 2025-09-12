@@ -97,7 +97,7 @@
 &kp LA(TAB)  &trans  &trans  &trans    &trans    &trans        &trans         &msc SCRL_UP       &kp UP_ARROW     &msc SCRL_DOWN  &kp PAGE_UP    &trans
 &trans       &trans  &trans  &trans    &trans    &trans        &trans         &kp LEFT           &kp DOWN         &kp RIGHT       &kp PAGE_DOWN  &trans
 &trans       &trans  &trans  &trans    &trans    &trans        &trans         &trans             &trans           &trans          &trans         &trans
-&trans       &trans  &trans  &mkp MB4  &mkp MB5  &kp LEFT_GUI  &kp RIGHT_GUI  &kp LC(PAGE_DOWN)  &kp LC(PAGE_UP)  &trans          &trans         &trans
+&trans       &trans  &trans  &mkp MB4  &mkp MB5  &kp LEFT_GUI  &kp RIGHT_GUI  &kp LC(PG_UP)  &kp LC(PG_DN)  &trans          &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
