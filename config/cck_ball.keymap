@@ -81,6 +81,30 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        a+j {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 25>;
+        };
+
+        s+k {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <27 32>;
+        };
+
+        d+l {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <27 32>;
+        };
+
+        f+ {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <28 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -145,7 +169,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
