@@ -135,8 +135,8 @@
         coding_symbol {
             bindings = <
 &trans  &trans     &trans    &trans     &trans        &trans               &trans     &trans                                  &trans                          &trans                      &trans        &trans
-&trans  &kp F1     &kp F2    &kp F3     &kp F4        &kp F5               &trans     &left_brackets                          &kp UP                          &right_brackets             &kp MINUS     &trans
-&trans  &kp F1     &kp F2    &kp F3     &kp F4        &kp F5               &trans     &kp LEFT                                &kp DOWN                        &kp RIGHT                   &kp EQUAL     &trans
+&trans  &trans     &trans    &trans     &trans        &trans               &trans     &left_brackets                          &kp UP                          &right_brackets             &kp MINUS     &trans
+&trans  &trans     &trans    &trans     &trans        &trans               &trans     &kp LEFT                                &kp DOWN                        &kp RIGHT                   &kp EQUAL     &trans
 &trans  &kp LCTRL  &kp PLUS  &kp MINUS  &kp ASTERISK  &mt BACKSLASH SLASH  &trans     &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_BRACE LEFT_BRACE  &kp UP_ARROW  &trans
 &trans  &trans     &trans    &trans     &trans        &trans               &kp RCTRL  &kp F2                                  &kp F5                          &kp LEFT                    &kp DOWN      &kp RIGHT
             >;
@@ -177,7 +177,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
