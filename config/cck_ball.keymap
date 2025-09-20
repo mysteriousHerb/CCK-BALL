@@ -114,7 +114,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "WECHAT_SLACK";
         #binding-cells = <0>;
-        bindings = <&kp LC(LA(W))>, <&kp LS(LA(LC(LG(W))))>;
+        bindings = <&kp LC(LA(W))>, <&kp LC(LA(E))>;
     };
 
     behaviors {
@@ -184,7 +184,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
