@@ -130,8 +130,8 @@
         QWERTY {
             bindings = <
 &mt ESCAPE GRAVE  &mt F1 N1               &mt F2 N2    &mt F3 N3    &mt F4 N4          &mt F5 N5               &mt F6 N6  &mt F7 N7      &mt F8 N8        &mt F9 N9         &mt MINUS N0       &mt EQUAL MINUS
-&kp TAB           &hml LEFT_SHIFT Q       &kp W        &kp E        &kp R              &kp T                   &kp Y      &kp U          &kp I            &kp O             &kp P              &kp EQUAL
-&kp BACKSPACE     &hml LCTRL A            &hml LGUI S  &hml LALT D  &hml LEFT_SHIFT F  &kp G                   &kp H      &hmr RSHIFT J  &hmr RALT K      &hmr LGUI L       &hmr RCTRL SEMI    &kp SQT
+&kp TAB           &hml LEFT_SHIFT Q       &kp W        &kp E        &lt 5 R            &kp T                   &kp Y      &kp U          &kp I            &kp O             &kp P              &kp EQUAL
+&kp BACKSPACE     &hml LCTRL A            &hml LGUI S  &hml LALT D  &hml LEFT_SHIFT F  &lt 1 G                 &kp H      &hmr RSHIFT J  &hmr RALT K      &hmr LGUI L       &hmr RCTRL SEMI    &kp SQT
 &kp LEFT_SHIFT    &kp Z                   &kp X        &kp C        &lt 3 V            &lt 2 B                 &lt 3 N    &mt K_MUTE M   &kp COMMA        &kp DOT           &kp SLASH          &kp BSLH
 &mo 1             &mt LG(SPACE) CAPSLOCK  &mo 5        &mkp LCLK    &mkp RCLK          &wechat_slack_language  &mkp LCLK  &kp RIGHT_ALT  &mt ENTER SPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
             >;
@@ -186,7 +186,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
