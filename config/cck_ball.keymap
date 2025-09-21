@@ -178,11 +178,11 @@
 
         web_browser_layer {
             bindings = <
-&kp ESC      &trans  &trans     &trans           &trans                   &trans     &trans     &trans           &trans           &trans          &trans         &trans
-&kp LA(TAB)  &trans  &kp LC(W)  &trans           &trans                   &kp LC(T)  &trans     &msc SCRL_UP     &kp UP_ARROW     &msc SCRL_DOWN  &kp PAGE_UP    &trans
-&trans       &trans  &trans     &trans           &trans                   &trans     &trans     &kp LEFT         &kp DOWN         &kp RIGHT       &kp PAGE_DOWN  &trans
-&trans       &trans  &trans     &trans           &trans                   &trans     &trans     &mt_mkp MB5 MB4  &kp LC(PG_DN)    &kp LC(PG_UP)   &kp LC(W)      &trans
-&trans       &trans  &trans     &mt_mkp MB5 MB4  &mt LC(PG_UP) LC(PG_DN)  &kp LC(W)  &kp LC(W)  &trans           &mt_mkp MB5 MB4  &trans          &trans         &trans
+&kp ESC      &trans  &trans     &trans           &trans         &trans         &trans     &trans           &trans           &trans             &trans         &trans
+&kp LA(TAB)  &trans  &kp LC(W)  &trans           &trans         &kp LC(T)      &trans     &msc SCRL_UP     &kp UP_ARROW     &msc SCRL_DOWN     &kp PAGE_UP    &trans
+&trans       &trans  &trans     &trans           &trans         &trans         &trans     &kp LEFT         &kp DOWN         &kp RIGHT          &kp PAGE_DOWN  &trans
+&trans       &trans  &trans     &trans           &trans         &trans         &trans     &mt_mkp MB5 MB4  &kp LC(PG_UP)    &kp LC(PAGE_DOWN)  &kp LC(W)      &trans
+&trans       &trans  &trans     &mt_mkp MB5 MB4  &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(W)  &trans           &mt_mkp MB5 MB4  &trans             &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -199,7 +199,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
