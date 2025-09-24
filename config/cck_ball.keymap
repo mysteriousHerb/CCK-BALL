@@ -199,7 +199,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -219,11 +219,11 @@
 
         combo {
             bindings = <
-&trans        &trans      &trans         &trans         &trans  &trans  &trans  &trans          &trans         &trans           &trans  &trans
-&kp LA(TAB)   &kp LA(F4)  &kp LC(LA(W))  &kp LC(LA(E))  &trans  &trans  &trans  &trans          &trans         &trans           &trans  &trans
-&kp CAPSLOCK  &trans      &kp RG(RS(S))  &kp LC(F)      &trans  &trans  &trans  &left_brackets  &trans         &right_brackets  &trans  &trans
-&trans        &trans      &trans         &trans         &trans  &trans  &trans  &trans          &trans         &trans           &trans  &trans
-&trans        &trans      &trans         &trans         &trans  &trans  &trans  &trans          &kp LG(SPACE)  &trans           &trans  &trans
+&trans             &trans      &trans         &trans         &trans     &trans         &trans         &trans          &trans         &trans           &trans         &trans
+&kp LA(TAB)        &kp LA(F4)  &kp LC(LA(W))  &kp LC(LA(E))  &trans     &kp LC(LS(T))  &trans         &left_brackets  &kp UP_ARROW   &right_brackets  &kp LC(LA(P))  &trans
+&kp LC(BACKSPACE)  &kp LC(A)   &kp RG(RS(S))  &trans         &kp LC(F)  &trans         &trans         &kp LC(LEFT)    &kp DOWN       &kp LC(RIGHT)    &trans         &trans
+&kp CAPSLOCK       &kp LC(Z)   &kp LC(X)      &kp LC(C)      &trans     &trans         &kp LC(LA(N))  &trans          &trans         &trans           &trans         &trans
+&trans             &trans      &trans         &trans         &trans     &trans         &trans         &trans          &kp LG(SPACE)  &trans           &trans         &trans
             >;
 
             sensor-bindings =
