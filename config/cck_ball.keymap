@@ -199,7 +199,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -222,7 +222,7 @@
 &kp GRAVE          &kp EXCLAMATION  &trans         &trans         &trans         &trans         &trans         &trans          &trans        &trans           &trans         &trans
 &kp RG(TAB)        &kp LA(F4)       &kp LC(LA(W))  &kp LC(LA(E))  &kp RG(SPACE)  &kp LC(LS(T))  &trans         &left_brackets  &kp UP_ARROW  &right_brackets  &kp LC(LS(P))  &trans
 &kp LC(BACKSPACE)  &kp LC(A)        &kp RG(RS(S))  &kp RG(D)      &kp LC(F)      &kp RG(SPACE)  &trans         &kp LC(LEFT)    &kp DOWN      &kp LC(RIGHT)    &trans         &trans
-&kp CAPSLOCK       &kp LC(Z)        &kp LC(X)      &kp LC(C)      &kp LC(V)      &kp RG(RS(B))  &kp LC(LA(N))  &trans          &trans        &trans           &kp LC(SLASH)  &trans
+&kp CAPSLOCK       &kp LC(Z)        &kp LC(X)      &kp LC(C)      &kp LC(V)      &kp RG(RS(B))  &kp LC(LA(N))  &trans          &trans        &trans           &kp LC(SLASH)  &kp LC(SLASH)
 &kp CAPS           &trans           &trans         &trans         &trans         &trans         &mkp LCLK      &kp ENTER       &kp SPACE     &trans           &trans         &trans
             >;
 
