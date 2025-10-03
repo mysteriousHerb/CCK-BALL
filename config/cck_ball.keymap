@@ -185,7 +185,9 @@
 &trans   &trans  &trans  &mt_mkp MB5 MB4  &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(W)  &trans           &mt_mkp MB5 MB4  &trans          &trans         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
         };
 
         snipe-layers {
@@ -199,7 +201,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -228,7 +230,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp 0 0>,
-                <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
+                <&inc_dec_kp LC(LS(LA(PG_UP))) LC(LA(LS(PAGE_DOWN)))>;
         };
     };
 };
