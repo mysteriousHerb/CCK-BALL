@@ -142,11 +142,11 @@
 
         QWERTY {
             bindings = <
-&mt ESCAPE GRAVE  &mt F1 N1          &mt F2 N2    &mt F3 N3    &mt F4 N4          &mt F5 N5       &mt F6 N6  &mt F7 N7      &mt F8 N8        &mt F9 N9       &mt MINUS N0       &kp MINUS
-&kp TAB           &hml LEFT_SHIFT Q  &kp W        &kp E        &lt 5 R            &kp T           &kp Y      &kp U          &kp I            &kp O           &kp P              &kp EQUAL
-&kp BACKSPACE     &hml LCTRL A       &hml LGUI S  &hml LALT D  &hml LEFT_SHIFT F  &lt 1 G         &kp H      &hmr RSHIFT J  &hmr RALT K      &hmr LGUI L     &hmr RCTRL SEMI    &kp SQT
-&kp LEFT_SHIFT    &kp Z              &kp X        &kp C        &lt 3 V            &lt 2 B         &lt 3 N    &lt 3 M        &kp COMMA        &kp DOT         &kp SLASH          &kp BSLH
-&kp LCTRL         &kp LG(RIGHT_WIN)  &kp UNDER    &mkp LCLK    &lt 6 ENTER        &lt_mkp 1 RCLK  &mkp LCLK  &mo 3          &mt ENTER SPACE  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp DEL
+&mt ESCAPE GRAVE  &mt F1 N1          &mt F2 N2    &mt F3 N3    &mt F4 N4          &mt F5 N5       &mt F6 N6  &mt F7 N7      &mt F8 N8        &mt F9 N9       &mt MINUS N0     &kp MINUS
+&kp TAB           &hml LEFT_SHIFT Q  &kp W        &kp E        &lt 5 R            &kp T           &kp Y      &kp U          &kp I            &kp O           &kp P            &kp EQUAL
+&kp BACKSPACE     &hml LCTRL A       &hml LGUI S  &hml LALT D  &hml LEFT_SHIFT F  &lt 1 G         &kp H      &hmr RSHIFT J  &hmr RALT K      &hmr LGUI L     &hmr RCTRL SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z              &kp X        &kp C        &lt 3 V            &lt 2 B         &lt 3 N    &lt 3 M        &kp COMMA        &kp DOT         &kp SLASH        &kp BSLH
+&kp LCTRL         &kp UNDERSCORE     &kp UNDER    &mkp LCLK    &lt 6 ENTER        &lt_mkp 1 RCLK  &mkp LCLK  &mo 3          &mt ENTER SPACE  &kp UNDERSCORE  &kp UNDERSCORE   &kp DEL
             >;
 
             sensor-bindings =
@@ -201,7 +201,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -209,11 +209,11 @@
 
         keypad_layer {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans           &kp PLUS         &kp MINUS        &kp ASTERISK  &kp SLASH        &trans
-&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp KP_NUMBER_7  &kp KP_N7        &kp KP_N8        &kp KP_N9     &kp KP_NUMBER_9  &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_4  &kp KP_N5        &kp KP_N6     &kp KP_NUMBER_6  &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_1  &kp KP_N1        &kp KP_N2        &kp KP_N3     &kp PERIOD       &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &trans           &kp EQUAL        &kp KP_NUMBER_0  &kp PERIOD    &kp PERIOD       &trans
+&kp ESCAPE  &kp F1  &kp F2  &kp F3     &kp F4     &kp F5  &trans           &kp PLUS         &kp MINUS        &kp ASTERISK  &kp SLASH        &trans
+&kp ESCAPE  &kp F1  &kp F2  &kp F3     &kp F4     &kp F5  &kp KP_NUMBER_7  &kp KP_N7        &kp KP_N8        &kp KP_N9     &kp KP_NUMBER_9  &trans
+&trans      &trans  &trans  &trans     &trans     &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_4  &kp KP_N5        &kp KP_N6     &kp KP_NUMBER_6  &trans
+&trans      &trans  &trans  &trans     &trans     &trans  &kp KP_NUMBER_1  &kp KP_N1        &kp KP_N2        &kp KP_N3     &kp PERIOD       &trans
+&trans      &trans  &trans  &kp EQUAL  &kp ENTER  &trans  &trans           &kp EQUAL        &kp KP_NUMBER_0  &kp PERIOD    &kp PERIOD       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -221,11 +221,11 @@
 
         combo {
             bindings = <
-&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &trans         &trans         &trans         &trans          &trans        &trans           &trans         &trans
-&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(W))         &kp LC(LA(E))         &kp RG(SPACE)  &kp LC(LS(T))  &trans         &left_brackets  &kp UP_ARROW  &right_brackets  &kp LC(LS(P))  &trans
-&kp LC(BACKSPACE)  &kp LC(A)             &kp RG(RS(S))         &kp RG(D)             &kp LC(F)      &kp RG(SPACE)  &trans         &kp LC(LEFT)    &kp DOWN      &kp LC(RIGHT)    &trans         &trans
-&kp CAPSLOCK       &kp LC(Z)             &kp LC(X)             &kp LC(C)             &kp LC(V)      &kp RG(RS(B))  &kp LC(LA(N))  &trans          &trans        &trans           &kp LC(SLASH)  &kp LC(SLASH)
-&kp CAPS           &trans                &trans                &trans                &trans         &trans         &mkp LCLK      &kp ENTER       &kp SPACE     &trans           &trans         &trans
+&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &trans     &kp LS(LC(N5))  &trans         &trans          &trans        &trans           &trans         &trans
+&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(W))         &kp LC(LA(E))         &trans     &kp LC(LS(T))   &trans         &left_brackets  &kp UP_ARROW  &right_brackets  &kp LC(LS(P))  &trans
+&kp LC(BACKSPACE)  &kp LC(A)             &kp RG(RS(S))         &kp RG(D)             &kp LC(F)  &kp RG(SPACE)   &trans         &kp LC(LEFT)    &kp DOWN      &kp LC(RIGHT)    &trans         &trans
+&kp CAPSLOCK       &kp LC(Z)             &kp LC(X)             &kp LC(C)             &kp LC(V)  &kp RG(RS(B))   &kp LC(LA(N))  &trans          &trans        &trans           &kp LC(SLASH)  &kp LC(SLASH)
+&kp CAPS           &trans                &trans                &trans                &trans     &trans          &mkp LCLK      &kp ENTER       &kp SPACE     &trans           &trans         &trans
             >;
 
             sensor-bindings =
