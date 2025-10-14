@@ -162,6 +162,10 @@
 &trans         &kp DOLLAR       &kp PIPE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &trans        &trans        &trans          &kp LC(SLASH)   &kp LC(SLASH)   &trans
 &trans         &trans           &trans       &trans                &trans                 &trans         &kp MINUS     &kp EQUAL     &kp UNDERSCORE  &kp LEFT        &kp DOWN        &kp RIGHT
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp 0 0>,
+                <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
         };
 
         BT_layers {
@@ -201,7 +205,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
