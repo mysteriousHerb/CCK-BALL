@@ -159,7 +159,7 @@
 &trans         &trans           &trans       &trans                &trans                 &trans         &trans        &trans        &trans          &trans          &trans          &trans
 &kp GRAVE      &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT    &kp LCTRL     &msc SCRL_UP  &kp UP_ARROW    &msc SCRL_DOWN  &kp LC(LS(P))   &kp MINUS
 &kp BACKSPACE  &kp LCTRL        &kp HASH     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET      &kp NUMBER_6  &kp LEFT      &kp DOWN        &kp RIGHT       &kp UNDERSCORE  &kp DELETE
-&trans         &kp DOLLAR       &kp PIPE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &trans        &trans        &trans          &kp LC(SLASH)   &kp LC(SLASH)   &trans
+&trans         &kp LC(Z)        &kp PIPE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &trans        &trans        &trans          &kp LC(SLASH)   &kp LC(SLASH)   &trans
 &trans         &trans           &trans       &trans                &trans                 &trans         &kp MINUS     &kp EQUAL     &kp UNDERSCORE  &kp LEFT        &kp DOWN        &kp RIGHT
             >;
 
@@ -205,7 +205,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
