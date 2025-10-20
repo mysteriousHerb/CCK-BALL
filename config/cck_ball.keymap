@@ -205,7 +205,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -225,11 +225,11 @@
 
         combo {
             bindings = <
-&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &trans     &kp LS(LC(N5))  &trans         &trans          &trans        &trans           &trans         &trans
-&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(W))         &kp LC(LA(E))         &trans     &kp LC(LS(T))   &trans         &left_brackets  &kp UP_ARROW  &right_brackets  &kp LC(LS(P))  &trans
-&kp LC(BACKSPACE)  &kp LC(A)             &kp RG(RS(S))         &kp RG(D)             &kp LC(F)  &kp RG(SPACE)   &trans         &kp LC(LEFT)    &kp DOWN      &kp LC(RIGHT)    &trans         &trans
-&kp CAPSLOCK       &kp LC(Z)             &kp LC(X)             &kp LC(C)             &kp LC(V)  &kp RG(RS(B))   &kp LC(LS(N))  &trans          &trans        &trans           &kp LC(SLASH)  &kp LC(SLASH)
-&kp CAPS           &trans                &trans                &trans                &trans     &trans          &mkp LCLK      &kp ENTER       &kp SPACE     &trans           &trans         &trans
+&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &trans     &kp LS(LC(N5))  &trans         &trans          &trans            &trans           &trans         &trans
+&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(W))         &kp LC(LA(E))         &trans     &kp LC(LS(T))   &trans         &left_brackets  &kp RG(UP_ARROW)  &right_brackets  &kp LC(LS(P))  &trans
+&kp LC(BACKSPACE)  &kp LC(A)             &kp RG(RS(S))         &kp RG(D)             &kp LC(F)  &kp RG(SPACE)   &trans         &kp RG(LEFT)    &kp RG(DOWN)      &kp RG(RIGHT)    &trans         &trans
+&kp CAPSLOCK       &kp LC(Z)             &kp LC(X)             &kp LC(C)             &kp LC(V)  &kp RG(RS(B))   &kp LC(LS(N))  &trans          &trans            &trans           &kp LC(SLASH)  &kp LC(SLASH)
+&kp CAPS           &trans                &trans                &trans                &trans     &trans          &mkp LCLK      &kp ENTER       &kp SPACE         &trans           &trans         &trans
             >;
 
             sensor-bindings =
