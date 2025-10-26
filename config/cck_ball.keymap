@@ -170,8 +170,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LS(LA(LC(RIGHT))) LS(LA(LC(LEFT_ARROW)))>,
-                <&inc_dec_kp LS(LA(LC(UP_ARROW))) LA(LC(LS(DOWN)))>;
+                <&inc_dec_kp LS(LA(LG(RIGHT))) LS(LA(LG(LEFT_ARROW)))>,
+                <&inc_dec_kp LS(LA(LG(UP_ARROW))) LA(LS(LG(DOWN)))>;
         };
 
         coding_symbol {
@@ -225,7 +225,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
