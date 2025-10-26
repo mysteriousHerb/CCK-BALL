@@ -176,15 +176,15 @@
 
         coding_symbol {
             bindings = <
-&kp TILDE      &kp EXCLAMATION  &kp AT_SIGN         &kp HASH      &kp DOLLAR           &kp PERCENT                             &kp CARET              &kp AMPERSAND    &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&kp LS(TAB)    &kp EXCLAMATION  &kp PG_UP           &kp UP_ARROW  &kp PG_DN            &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &msc SCRL_UP     &kp UP_ARROW   &msc SCRL_DOWN        &kp LC(LS(P))          &kp PLUS
-&kp BACKSPACE  &kp LC(A)        &kp LC(LEFT_ARROW)  &kp DOWN      &kp LC(RIGHT_ARROW)  &mt RIGHT_BRACKET LEFT_BRACKET          &kp RIGHT_BRACKET      &kp LEFT         &kp DOWN       &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
-&kp CAPSLOCK   &kp LC(Z)        &kp LC(X)           &kp LC(C)     &kp LC(V)            &mt RIGHT_BRACE LEFT_BRACE              &kp RIGHT_BRACE        &mt_mkp MB5 MB4  &kp LC(PG_UP)  &kp LC(LS(PG_DN))     &kp LC(SLASH)          &kp PIPE
-&kp LC(PG_UP)  &mt_mkp MB5 MB4  &kp LC(PG_DN)       &kp MINUS     &kp EQUAL            &kp MINUS                               &kp MINUS              &kp MINUS        &kp EQUAL      &kp LC(W)             &kp INSERT             &kp DELETE
+&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN         &kp HASH      &kp DOLLAR           &kp PERCENT                             &kp CARET              &kp AMPERSAND    &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp LS(TAB)     &kp EXCLAMATION  &kp PG_UP           &kp UP_ARROW  &kp PG_DN            &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &msc SCRL_UP     &kp UP_ARROW   &msc SCRL_DOWN        &kp LC(LS(P))          &kp PLUS
+&kp BACKSPACE   &kp LC(A)        &kp LC(LEFT_ARROW)  &kp DOWN      &kp LC(RIGHT_ARROW)  &mt RIGHT_BRACKET LEFT_BRACKET          &kp RIGHT_BRACKET      &kp LEFT         &kp DOWN       &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
+&kp LEFT_SHIFT  &kp LC(Z)        &kp LC(X)           &kp LC(C)     &kp LC(V)            &mt RIGHT_BRACE LEFT_BRACE              &kp RIGHT_BRACE        &mt_mkp MB5 MB4  &kp LC(PG_UP)  &kp LC(LS(PG_DN))     &kp LC(SLASH)          &kp PIPE
+&kp LCTRL       &kp LEFT_META    &kp LEFT_ALT        &kp MINUS     &kp EQUAL            &kp MINUS                               &kp MINUS              &kp MINUS        &kp EQUAL      &kp LC(W)             &kp INSERT             &kp DELETE
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp 0 0>,
                 <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
         };
 
@@ -225,7 +225,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
