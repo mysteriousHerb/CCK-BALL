@@ -214,10 +214,10 @@
 
         combo {
             bindings = <
-&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))     &kp LS(LC(N6))     &kp LS(LC(N7))     &kp LS(LC(N8))         &trans                  &trans                     &trans
-&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(LG(W)))     &kp LS(LG(LA(E)))     &kp LC(LA(LG(R)))     &kp LC(LA(LG(T)))  &kp LC(LA(LG(Y)))  &kp LC(LA(LG(U)))  &kp LC(LA(LG(I)))      &kp LG(LA(LS(O)))       &kp LC(LA(LG(P)))          &trans
-&kp LC(BACKSPACE)  &kp LC(LA(LG(A)))     &kp LC(LA(LG(S)))     &kp LC(LA(LG(D)))     &kp LS(LG(LA(F)))     &kp LC(LA(LG(G)))  &kp LC(LA(LG(H)))  &kp LC(LA(LG(J)))  &kp LC(LA(LG(K)))      &kp LC(LA(LG(L)))       &kp LS(LG(LA(SEMICOLON)))  &trans
-&kp CAPSLOCK       &kp LC(LA(LG(Z)))     &kp LC(LA(LG(X)))     &kp LC(LA(LG(C)))     &kp LC(LA(LG(V)))     &kp LC(LA(LG(B)))  &kp LC(LA(LG(N)))  &kp LC(LA(LG(M)))  &kp LS(LG(LA(COMMA)))  &kp LS(LG(LA(PERIOD)))  &kp LC(SLASH)              &kp LC(SLASH)
+&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LESS_THAN            &kp GREATER_THAN          &kp LS(LC(N7))     &kp LS(LC(N8))         &trans                  &trans                     &trans
+&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(LG(W)))     &kp LS(LG(LA(E)))     &kp LC(LA(LG(R)))     &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS     &kp LC(LA(LG(U)))  &kp LC(LA(LG(I)))      &kp LG(LA(LS(O)))       &kp LC(LA(LG(P)))          &trans
+&kp LC(BACKSPACE)  &kp LC(LA(LG(A)))     &kp LC(LA(LG(S)))     &kp LC(LA(LG(D)))     &kp LS(LG(LA(F)))     &kp LEFT_BRACKET         &kp RIGHT_BRACKET         &kp LC(LA(LG(J)))  &kp LC(LA(LG(K)))      &kp LC(LA(LG(L)))       &kp LS(LG(LA(SEMICOLON)))  &trans
+&kp CAPSLOCK       &kp LC(LA(LG(Z)))     &kp LC(LA(LG(X)))     &kp LC(LA(LG(C)))     &kp LC(LA(LG(V)))     &kp LEFT_BRACE           &kp RIGHT_BRACE           &kp LC(LA(LG(M)))  &kp LS(LG(LA(COMMA)))  &kp LS(LG(LA(PERIOD)))  &kp LC(SLASH)              &kp LC(SLASH)
 &kp CAPS           &trans                &trans                &trans                &trans                &trans             &mkp LCLK          &kp ENTER          &kp SPACE              &trans                  &trans                     &trans
             >;
 
