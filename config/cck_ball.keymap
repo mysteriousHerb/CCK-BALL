@@ -163,10 +163,10 @@
         QWERTY {
             bindings = <
 &mt ESCAPE GRAVE  &mt F1 N1          &mt F2 N2     &mt F3 N3    &mt F4 N4          &mt F5 N5                   &mt F6 N6            &mt F7 N7          &mt F8 N8    &mt F9 N9     &mt F10 N0       &kp MINUS
-&kp TAB           &hml LEFT_SHIFT Q  &kp W         &kp E        &lt 5 R            &mt_kp_mkp MCLK T           &mt_kp_mkp MCLK Y    &kp U              &kp I        &kp O         &kp P            &kp EQUAL
+&kp TAB           &hml LEFT_SHIFT Q  &kp W         &kp E        &lt 3 R            &mt_kp_mkp MCLK T           &mt_kp_mkp MCLK Y    &kp U              &kp I        &kp O         &kp P            &kp EQUAL
 &kp BACKSPACE     &hml LCTRL A       &hml LMETA S  &hml LALT D  &hml LEFT_SHIFT F  &mt RA(RG(RC(G))) G         &mt LA(LG(LC(H))) H  &hmr RSHIFT J      &hmr RALT K  &hmr RMETA L  &hmr RCTRL SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z              &kp X         &kp C        &lt 1 V            &lt 2 B                     &mt_kp_mkp MCLK N    &mt_kp_mkp MCLK M  &kp COMMA    &kp DOT       &kp SLASH        &kp BSLH
-&kp LCTRL         &kp LEFT_META      &kp LEFT_ALT  &lt 1 DEL    &lt 6 ENTER        &mt_mkp_kp LEFT_SHIFT RCLK  &mkp LCLK            &lt 1 DELETE       &kp SPACE    &kp LEFT_ALT  &kp TAB          &kp DEL
+&kp LCTRL         &kp LEFT_META      &kp LEFT_ALT  &lt 1 DEL    &lt 4 ENTER        &mt_mkp_kp LEFT_SHIFT RCLK  &mkp LCLK            &lt 1 DELETE       &kp SPACE    &kp LEFT_ALT  &kp TAB          &kp DEL
             >;
 
             sensor-bindings =
@@ -198,37 +198,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-        };
-
-        web_browser_layer {
-            bindings = <
-&kp ESC  &trans  &trans  &trans           &trans         &trans         &trans           &trans         &trans           &trans          &trans         &trans
-&trans   &trans  &trans  &trans           &trans         &trans         &trans           &msc SCRL_UP   &kp UP_ARROW     &msc SCRL_DOWN  &kp PAGE_UP    &trans
-&trans   &trans  &trans  &trans           &trans         &trans         &trans           &kp LEFT       &kp DOWN         &kp RIGHT       &kp PAGE_DOWN  &trans
-&trans   &trans  &trans  &trans           &trans         &trans         &mt_mkp MB5 MB4  &kp LC(PG_UP)  &kp LC(PG_DN)    &kp LC(PG_DN)   &kp LC(W)      &trans
-&trans   &trans  &trans  &mt_mkp MB5 MB4  &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(W)        &trans         &mt_mkp MB5 MB4  &trans          &trans         &trans
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
-        };
-
-        snipe-layers {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings =
-                <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-                <&scroll_horizontal_encoder>;
-
-            // 编码器2：左右滚动
         };
 
         keypad_layer {
