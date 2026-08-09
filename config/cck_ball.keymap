@@ -171,7 +171,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
-                <&inc_dec_kp LS(LA(LG(UP_ARROW))) LA(LS(LG(DOWN)))>;
+                <&inc_dec_kp LC(LA(LG(UP_ARROW))) LA(LS(LG(DOWN)))>;
         };
 
         coding_symbol {
@@ -246,9 +246,9 @@
         combo {
             bindings = <
 &kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))     &kp LS(LC(N6))     &kp LS(LC(N7))     &kp LS(LC(N8))         &trans                  &trans                     &trans
-&kp RG(TAB)        &kp LA(F4)            &kp LS(LA(LG(W)))     &kp LS(LG(LA(E)))     &kp LS(LA(LG(R)))     &kp LS(LA(LG(T)))  &kp LS(LA(LG(Y)))  &kp LS(LA(LG(U)))  &kp LS(LA(LG(I)))      &kp LG(LA(LS(O)))       &kp LS(LA(LG(P)))          &trans
-&kp LC(BACKSPACE)  &kp LS(LA(LG(A)))     &kp LS(LA(LG(S)))     &kp LS(LA(LG(D)))     &kp LS(LG(LA(F)))     &kp LS(LA(LG(G)))  &kp LS(LA(LG(H)))  &kp LS(LA(LG(J)))  &kp LS(LA(LG(K)))      &kp LS(LA(LG(L)))       &kp LS(LG(LA(SEMICOLON)))  &trans
-&kp CAPSLOCK       &kp LS(LA(LG(Z)))     &kp LS(LA(LG(X)))     &kp LS(LA(LG(C)))     &kp LS(LA(LG(V)))     &kp LS(LA(LG(B)))  &kp LS(LA(LG(N)))  &kp LS(LA(LG(M)))  &kp LS(LG(LA(COMMA)))  &kp LS(LG(LA(PERIOD)))  &kp LC(SLASH)              &kp LC(SLASH)
+&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(LG(W)))     &kp LS(LG(LA(E)))     &kp LC(LA(LG(R)))     &kp LC(LA(LG(T)))  &kp LC(LA(LG(Y)))  &kp LC(LA(LG(U)))  &kp LC(LA(LG(I)))      &kp LG(LA(LS(O)))       &kp LC(LA(LG(P)))          &trans
+&kp LC(BACKSPACE)  &kp LC(LA(LG(A)))     &kp LC(LA(LG(S)))     &kp LC(LA(LG(D)))     &kp LS(LG(LA(F)))     &kp LC(LA(LG(G)))  &kp LC(LA(LG(H)))  &kp LC(LA(LG(J)))  &kp LC(LA(LG(K)))      &kp LC(LA(LG(L)))       &kp LS(LG(LA(SEMICOLON)))  &trans
+&kp CAPSLOCK       &kp LC(LA(LG(Z)))     &kp LC(LA(LG(X)))     &kp LC(LA(LG(C)))     &kp LC(LA(LG(V)))     &kp LC(LA(LG(B)))  &kp LC(LA(LG(N)))  &kp LC(LA(LG(M)))  &kp LS(LG(LA(COMMA)))  &kp LS(LG(LA(PERIOD)))  &kp LC(SLASH)              &kp LC(SLASH)
 &kp CAPS           &trans                &trans                &trans                &trans                &trans             &mkp LCLK          &kp ENTER          &kp SPACE              &trans                  &trans                     &trans
             >;
 
