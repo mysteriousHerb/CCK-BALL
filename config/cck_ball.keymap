@@ -162,11 +162,11 @@
 
         QWERTY {
             bindings = <
-&mt ESCAPE GRAVE  &mt F1 N1          &mt F2 N2     &mt F3 N3    &mt F4 N4          &mt F5 N5                   &mt F6 N6            &mt F7 N7          &mt F8 N8    &mt F9 N9     &mt F10 N0       &kp MINUS
-&kp TAB           &hml LEFT_SHIFT Q  &kp W         &kp E        &lt 3 R            &mt_kp_mkp MCLK T           &mt_kp_mkp MCLK Y    &kp U              &kp I        &kp O         &kp P            &kp EQUAL
-&kp BACKSPACE     &hml LCTRL A       &hml LMETA S  &hml LALT D  &hml LEFT_SHIFT F  &mt RA(RG(RC(G))) G         &mt LA(LG(LC(H))) H  &hmr RSHIFT J      &hmr RALT K  &hmr RMETA L  &hmr RCTRL SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z              &kp X         &kp C        &lt 1 V            &lt 2 B                     &mt_kp_mkp MCLK N    &mt_kp_mkp MCLK M  &kp COMMA    &kp DOT       &kp SLASH        &kp BSLH
-&kp LCTRL         &kp LEFT_META      &kp LEFT_ALT  &lt 1 DEL    &lt 4 ENTER        &mt_mkp_kp LEFT_SHIFT RCLK  &mkp LCLK            &lt 1 DELETE       &kp SPACE    &kp LEFT_ALT  &kp TAB          &kp DEL
+&mt ESCAPE GRAVE  &mt F1 N1          &mt F2 N2     &mt F3 N3       &mt F4 N4          &mt F5 N5                   &mt F6 N6            &mt F7 N7          &mt F8 N8    &mt F9 N9     &mt F10 N0       &kp MINUS
+&kp TAB           &hml LEFT_SHIFT Q  &kp W         &kp E           &lt 3 R            &mt_kp_mkp MCLK T           &mt_kp_mkp MCLK Y    &kp U              &kp I        &kp O         &kp P            &kp EQUAL
+&kp BACKSPACE     &hml LCTRL A       &hml LMETA S  &hml LALT D     &hml LEFT_SHIFT F  &mt RA(RG(RC(G))) G         &mt LA(LG(LC(H))) H  &hmr RSHIFT J      &hmr RALT K  &hmr RMETA L  &hmr RCTRL SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z              &kp X         &kp C           &lt 1 V            &lt 2 B                     &mt_kp_mkp MCLK N    &mt_kp_mkp MCLK M  &kp COMMA    &kp DOT       &kp SLASH        &kp BSLH
+&kp LCTRL         &kp LEFT_META      &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 4 ENTER        &mt_mkp_kp LEFT_SHIFT RCLK  &mkp LCLK            &lt 1 DELETE       &kp SPACE    &kp LEFT_ALT  &kp TAB          &kp DEL
             >;
 
             sensor-bindings =
@@ -214,11 +214,11 @@
 
         combo {
             bindings = <
-&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LESS_THAN            &kp GREATER_THAN          &kp LS(LC(N7))     &kp LS(LC(N8))         &trans                  &trans                     &trans
-&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(LG(W)))     &kp LS(LG(LA(E)))     &kp LC(LA(LG(R)))     &kp LEFT_BRACKET         &kp RIGHT_BRACKET         &kp LC(LA(LG(U)))  &kp LC(LA(LG(I)))      &kp LG(LA(LS(O)))       &kp LC(LA(LG(P)))          &trans
-&kp LC(BACKSPACE)  &kp LC(LA(LG(A)))     &kp LC(LA(LG(S)))     &kp LC(LA(LG(D)))     &kp LS(LG(LA(F)))     &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS     &kp LC(LA(LG(J)))  &kp LC(LA(LG(K)))      &kp LC(LA(LG(L)))       &kp LS(LG(LA(SEMICOLON)))  &trans
-&kp CAPSLOCK       &kp LC(LA(LG(Z)))     &kp LC(LA(LG(X)))     &kp LC(LA(LG(C)))     &kp LC(LA(LG(V)))     &kp LEFT_BRACE           &kp RIGHT_BRACE           &kp LC(LA(LG(M)))  &kp LS(LG(LA(COMMA)))  &kp LS(LG(LA(PERIOD)))  &kp LC(SLASH)              &kp LC(SLASH)
-&kp CAPS           &trans                &trans                &trans                &trans                &trans             &mkp LCLK          &kp ENTER          &kp SPACE              &trans                  &trans                     &trans
+&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LESS_THAN         &kp GREATER_THAN       &kp LS(LC(N7))     &kp LS(LC(N8))         &trans                  &trans                     &trans
+&kp RG(TAB)        &kp LA(F4)            &kp LC(LA(LG(W)))     &kp LS(LG(LA(E)))     &kp LC(LA(LG(R)))     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LA(LG(U)))  &kp LC(LA(LG(I)))      &kp LG(LA(LS(O)))       &kp LC(LA(LG(P)))          &trans
+&kp LC(BACKSPACE)  &kp LC(LA(LG(A)))     &kp LC(LA(LG(S)))     &kp LC(LA(LG(D)))     &kp LS(LG(LA(F)))     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LA(LG(J)))  &kp LC(LA(LG(K)))      &kp LC(LA(LG(L)))       &kp LS(LG(LA(SEMICOLON)))  &trans
+&kp CAPSLOCK       &kp LC(LA(LG(Z)))     &kp LC(LA(LG(X)))     &kp LC(LA(LG(C)))     &kp LC(LA(LG(V)))     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(LA(LG(M)))  &kp LS(LG(LA(COMMA)))  &kp LS(LG(LA(PERIOD)))  &kp LC(SLASH)              &kp LC(SLASH)
+&kp CAPS           &trans                &trans                &trans                &trans                &trans                &mkp LCLK              &kp ENTER          &kp SPACE              &trans                  &trans                     &trans
             >;
 
             sensor-bindings =
